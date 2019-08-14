@@ -1,0 +1,16 @@
+{
+    "name": "OpenMageModuleFostering/CSL_MostViewed",
+    "type": "magento-module",
+    "license": "OSL-v3.0",
+    "homepage": "",
+    "description": "List the top 10 of your store products online",
+    "authors": [
+    {
+        "name": "Cristian Sanclemente",
+        "email": "cristian@clickelectrodomesticos.com"
+    }
+],
+    "suggest": {
+        "magento-hackathon/magento-composer-installer": "*"
+    }
+}

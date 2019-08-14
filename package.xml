@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<package>
+    <name>CSL_MostViewed</name>
+    <version>1.0.0</version>
+    <stability>stable</stability>
+    <license>OSL v3.0</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>List the top 10 of your store products online</summary>
+    <description>CSL MostViewed Products &#xD;
+&#xD;
+The top 10 list of your online store with only install this extension products. &#xD;
+&#xD;
+The list of products will be visible in the public part in: &#xD;
+http://yourshop/mostviewed</description>
+    <notes>Mostviewed Products Extension CSL</notes>
+    <authors><author><name>Cristian Sanclemente</name><user>crissanclick</user><email>cristian@clickelectrodomesticos.com</email></author></authors>
+    <date>2014-07-02</date>
+    <time>10:23:28</time>
+    <contents><target name="magecommunity"><dir name="CSL"><dir name="MostViewed"><dir name="Block"><file name="Mostviewed.php" hash="3b422e266c79cee0f1c5af09a363c97b"/></dir><dir name="controllers"><file name="IndexController.php" hash="a329f4dfd583c842fbcc526496a0a6b8"/></dir><dir name="etc"><file name="config.xml" hash="38599bd82ff5806a2917fd834f477468"/></dir></dir></dir></target><target name="magedesign"><dir name="frontend"><dir name="base"><dir name="default"><dir name="layout"><file name="csl-mostviewed.xml" hash="dd579f8ce65f097d968f7293c97d7497"/></dir><dir name="template"><dir name="mostviewed"><file name="list.phtml" hash="827cb77dca70f1c7697a62a0f4cd776d"/></dir></dir></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="CSL_All.xml" hash="89ac6c60ddec2e95238ad1d7fb0305f5"/></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.1.0</min><max>6.0.0</max></php><package><name>Mage_Core_Modules</name><channel>community</channel><min>1.6.0.0</min><max>1.9</max></package><extension><name>gd</name><min>2.0.28</min><max>3.0</max></extension></required></dependencies>
+</package>
